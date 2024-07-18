@@ -1,0 +1,8 @@
+{
+  "name": "@nus3/add",
+  "version": "0.1.0",
+  "exports": "./mod.ts",
+  "fmt": {
+    "semiColons": false
+  }
+}
