@@ -4,5 +4,11 @@
   "exports": "./mod.ts",
   "fmt": {
     "semiColons": false
+  },
+  "tasks": {
+    "dev": "deno run -A --watch main.ts"
+  },
+  "imports": {
+    "cowsay": "npm:cowsay@1.6.0"
   }
 }

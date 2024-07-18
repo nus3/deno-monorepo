@@ -1,5 +1,11 @@
 {
   "name": "@nus3/subtract",
   "version": "0.1.0",
-  "exports": "./mod.ts"
+  "exports": "./mod.ts",
+  "imports": {
+    "@luca/add": "jsr:@luca/add@^0.0.2"
+  },
+  "tasks": {
+    "dev": "deno run -A --watch main.ts"
+  }
 }

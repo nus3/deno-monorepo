@@ -2,5 +2,8 @@
   "imports": {
     "chalk": "npm:chalk@5"
   },
+  "tasks": {
+    "dev": "deno run -A --watch main.ts"
+  },
   "workspace": ["./add", "./subtract"]
 }
